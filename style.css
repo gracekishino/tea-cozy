@@ -1,0 +1,145 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, header {
+    background-color: #000;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    min-width: 650px;
+}
+
+a {
+    color: seashell;
+}
+
+#mission h2, #featured h2 {
+    margin-bottom: 20px;
+}
+
+/* Header area styles */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 10px 0 9px 10px;
+    height: 50px;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    float: left;
+}
+
+nav {
+    text-align: right;
+    margin-right: 10px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Main area styles */
+
+main {
+    text-align: center;
+    position: relative;
+    opacity: 0.9;
+}
+
+#mission {
+    background-image: url('img-mission-background.jpg');
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+#mission-text {
+    background-color: #000;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#featured {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#products > div > img {
+    width: 300px;
+    padding: 10px;
+}
+
+#locations {
+    background-image: url('img-locations-background.jpg');
+    background-position: center;
+    height: 400px;
+    max-width: 1100px;
+    display: block;
+    margin: auto;
+    position: relative;
+    padding: 70px 0;
+}
+
+
+#shops {
+    display: flex;
+    justify-content: center;
+}
+
+#shops > div {
+    width: 300px;
+    height: 220px;
+    background-color: #000;
+    margin: 15px 20px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#shops > div > div, #shops > div > h3 {
+    flex-grow: 1;
+}
+
+
+/* Footer area styles */
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
+
+#footer-main {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-main > div {
+    flex-grow: 1;
+}
+
+#copyright {
+    text-align: left;
+}
