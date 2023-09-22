@@ -89,6 +89,9 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+#products > div {
+    padding: 10px 0;
+}
 
 #products > div > img {
     width: 300px;
