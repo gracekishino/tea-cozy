@@ -18,12 +18,12 @@ a {
     color: seashell;
 }
 
-#mission h2, #featured h2 {
-    margin-bottom: 20px;
-}
-
 
 /* Header area styles */
+
+html {
+    scroll-padding-top: 70px;
+}
 
 header {
     position: sticky;
@@ -47,7 +47,7 @@ nav {
 
 nav li {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 
@@ -57,6 +57,10 @@ main {
     text-align: center;
     position: relative;
     opacity: 0.9;
+}
+
+#mission h2, #featured h2 {
+    margin-bottom: 20px;
 }
 
 #mission {
@@ -115,7 +119,6 @@ main {
     position: relative;
     padding: 70px 0;
 }
-
 
 #shops {
     display: flex;
